@@ -1,6 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, Text, View, StyleSheet } from 'react-native';
-import { FlatList } from 'react-native-gesture-handler';
+import { TouchableOpacity, Text, View, StyleSheet, FlatList } from 'react-native';
 
 const PalettePreview = ({ palette, onPress }) => {
   return (
